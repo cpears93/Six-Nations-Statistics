@@ -31,10 +31,12 @@ public class ScotlandTest {
     public void getChampionships(){
         assertEquals(15, scotland.getChampionships());
     }
+
     @Test
     public void getCalcuttaCups(){
         assertEquals(40, scotland.getCalcuttaCups());
     }
+
     @Test
     public void getCentenaryQuiach(){
         assertEquals(14, scotland.getCentenaryQuaich());

@@ -36,6 +36,7 @@ public class FranceTest {
     public void getAuldAllianceTrophies(){
         assertEquals(1, france.getAuldAllianceTrophy());
     }
+
     @Test
     public void getGiuseppeGaribaldiTrophy(){
         assertEquals(12, france.getGiuseppeGaribaldiTrophy());
