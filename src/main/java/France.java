@@ -1,5 +1,5 @@
 public class France {
 
     private String coach;
-    private String
+    private String stadium;
 }
