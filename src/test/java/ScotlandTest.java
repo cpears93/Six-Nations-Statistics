@@ -13,9 +13,10 @@ public class ScotlandTest {
     }
 
     @Test
-    public void canGetCoachName(){
+    public void getCoachName(){
         assertEquals("Gregor Townsend", scotland.getCoach());
     }
+
     @Test
     public void getStadiumName(){
         assertEquals("Murrayfield", scotland.getStadium());
@@ -25,8 +26,9 @@ public class ScotlandTest {
     public void getStadiumCapacity(){
         assertEquals(67144, scotland.getStadiumCapacity());
     }
+
     @Test
-    public void getTotalChampionships(){
+    public void getChampionships(){
         assertEquals(15, scotland.getChampionships());
     }
     @Test
