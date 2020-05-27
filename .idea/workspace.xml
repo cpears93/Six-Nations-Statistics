@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3fe67c3-6a48-494a-b1c2-0507cf1f0a49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Italy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Italy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ItalyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItalyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FranceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FranceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ItalyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="245">
               <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,6 +69,18 @@
                 <element signature="e#680#681#0" expanded="true" />
                 <element signature="e#733#734#0" expanded="true" />
                 <element signature="e#790#791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FranceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,11 +122,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ScotlandTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Scotland.java" />
         <option value="$PROJECT_DIR$/src/main/java/France.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FranceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wales.java" />
         <option value="$PROJECT_DIR$/src/test/java/WalesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Italy.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItalyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FranceTest.java" />
       </list>
     </option>
   </component>
@@ -271,9 +282,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnglandTest - 2020.05.27 at 20h 57m 28s.xml">
-      <configuration name="EnglandTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnglandTest - 2020.05.27 at 20h 58m 22s.xml">
       <configuration name="EnglandTest" configurationId="JUnit" />
     </history-entry>
@@ -301,6 +309,9 @@
     <history-entry file="ItalyTest - 2020.05.27 at 22h 12m 57s.xml">
       <configuration name="ItalyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ItalyTest - 2020.05.27 at 22h 15m 07s.xml">
+      <configuration name="ItalyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="155" y="24" width="1161" height="728" extended-state="0" />
@@ -308,15 +319,15 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24932976" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24932976" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32861635" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32861635" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32861635" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32861635" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32861635" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -510,16 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FranceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scotland.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-182">
@@ -565,7 +566,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ItalyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="245">
           <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -581,6 +582,16 @@
             <element signature="e#680#681#0" expanded="true" />
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#790#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FranceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
