@@ -23,8 +23,8 @@ public class ScotlandTest {
     }
 
     @Test
-    public void getStadiumCapacity(){
-        assertEquals(67144, scotland.getStadiumCapacity());
+    public void getCapacity(){
+        assertEquals(67144, scotland.getCapacity());
     }
 
     @Test
