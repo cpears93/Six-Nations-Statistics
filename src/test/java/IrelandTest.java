@@ -9,7 +9,7 @@ public class IrelandTest {
 
     @Before
     public void before(){
-        ireland = new Ireland("Andy Farrell", "Aviva Stadium", 51700, 14,13, 17);
+        ireland = new Ireland("Andy Farrell", "Aviva Stadium", 51700, 23,13, 17);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class IrelandTest {
 
     @Test
     public void getChampionships(){
-        assertEquals(14, ireland.getChampionships());
+        assertEquals(23, ireland.getChampionships());
     }
 
     @Test

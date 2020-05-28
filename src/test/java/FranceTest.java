@@ -9,7 +9,7 @@ public class FranceTest {
 
     @Before
     public void before(){
-        france = new France("Fabian Galthié", "Stade De France", 81338, 17,1, 12);
+        france = new France("Fabian Galthié", "Stade De France", 81338, 25,1, 12);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class FranceTest {
 
     @Test
     public void getChampionships(){
-        assertEquals(17, france.getChampionships());
+        assertEquals(25, france.getChampionships());
     }
 
     @Test

@@ -9,7 +9,7 @@ public class Scotland {
     private int auldAllianceTrophies;
     private int doddieWeirCups;
 
-    public Scotland(String coach, String stadium, int capacity, int championships, int calcuttaCups, int centenaryQuaich, int auldAllianceTrophies, int doddieWeirCups){
+    public Scotland(String coach, String stadium, int capacity,  int championships, int calcuttaCups, int centenaryQuaich, int auldAllianceTrophies, int doddieWeirCups){
         this.coach = coach;
         this.stadium = stadium;
         this.capacity = capacity;

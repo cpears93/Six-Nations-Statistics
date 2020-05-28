@@ -9,7 +9,7 @@ public class EnglandTest {
 
     @Before
     public void before(){
-        england = new England("Eddie Jones", "Twickenham", 82000, 28,71, 20);
+        england = new England("Eddie Jones", "Twickenham", 82000, 38,71, 20);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class EnglandTest {
 
     @Test
     public void getChampionships(){
-        assertEquals(28, england.getChampionships());
+        assertEquals(38, england.getChampionships());
     }
 
     @Test

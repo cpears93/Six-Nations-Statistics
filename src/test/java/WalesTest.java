@@ -9,7 +9,7 @@ public class WalesTest {
 
     @Before
     public void before(){
-        wales = new Wales("Wayne Pivac", "Principality Stadium", 74500, 27, 2);
+        wales = new Wales("Wayne Pivac", "Principality Stadium", 74500, 39, 2);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class WalesTest {
 
     @Test
     public void getChampionships(){
-        assertEquals(27,wales.getChampionships());
+        assertEquals(39,wales.getChampionships());
     }
 
     @Test
