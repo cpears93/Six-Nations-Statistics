@@ -9,7 +9,7 @@ public class ItalyTest {
 
     @Before
     public void before(){
-        italy = new Italy("Franco Smith", "Stadio Olympico", 72698, 0,2);
+        italy = new Italy("Franco Smith", "Stadio Olympico", 72698, 19,0, 0, 14, 2);
     }
 
     @Test
@@ -28,8 +28,23 @@ public class ItalyTest {
     }
 
     @Test
+    public void getChampionshipsEntered(){
+        assertEquals(19, italy.getChampionshipsEntered());
+    }
+
+    @Test
     public void getChampionships(){
         assertEquals(0, italy.getChampionships());
+    }
+
+    @Test
+    public void getGrandSlams(){
+        assertEquals(0, italy.getGrandSlams());
+    }
+
+    @Test
+    public void getWoodenSpoons(){
+        assertEquals(14, italy.getWoodenSpoons());
     }
 
     @Test

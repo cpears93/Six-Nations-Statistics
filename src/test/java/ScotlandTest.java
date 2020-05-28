@@ -41,6 +41,7 @@ public class ScotlandTest {
     public void getGrandSlams(){
         assertEquals(3, scotland.getGrandSlams());
     }
+
     @Test
     public void getTripleCrowns(){
         assertEquals(10, scotland.getTripleCrowns());
@@ -48,7 +49,7 @@ public class ScotlandTest {
 
     @Test
     public void getWoodenSpoons(){
-        assertEquals(33, scotland.getChampionships());
+        assertEquals(33, scotland.getWoodenSpoons());
     }
 
     @Test
