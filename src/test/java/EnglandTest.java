@@ -9,7 +9,7 @@ public class EnglandTest {
 
     @Before
     public void before(){
-        england = new England("Eddie Jones", "Twickenham", 82000, 38,71, 20);
+        england = new England("Eddie Jones", "Twickenham", 82000, 122,38,13,25,25,71, 20);
     }
 
     @Test
@@ -28,8 +28,28 @@ public class EnglandTest {
     }
 
     @Test
+    public void getChampionshipEntries(){
+        assertEquals(122, england.getChampionshipEntries());
+    }
+
+    @Test
     public void getChampionships(){
         assertEquals(38, england.getChampionships());
+    }
+
+    @Test
+    public void getGrandSlams(){
+        assertEquals(13, england.getGrandSlams());
+    }
+
+    @Test
+    public void getTripleCrowns(){
+        assertEquals(25, england.getTripleCrowns());
+    }
+
+    @Test
+    public void getWoodenSpoons(){
+        assertEquals(25, england.getWoodenSpoons());
     }
 
     @Test
