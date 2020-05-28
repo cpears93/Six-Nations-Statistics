@@ -9,7 +9,7 @@ public class IrelandTest {
 
     @Before
     public void before(){
-        ireland = new Ireland("Andy Farrell", "Aviva Stadium", 51700, 23,13, 17);
+        ireland = new Ireland("Andy Farrell", "Aviva Stadium", 51700, 124,23, 3, 11, 36, 13,17);
     }
 
     @Test
@@ -28,8 +28,28 @@ public class IrelandTest {
     }
 
     @Test
+    public void getChampionshipsEntered(){
+        assertEquals(124, ireland.getChampionshipsEntered());
+    }
+
+    @Test
     public void getChampionships(){
         assertEquals(23, ireland.getChampionships());
+    }
+
+    @Test
+    public void getGrandSlams(){
+        assertEquals(3, ireland.getGrandSlams());
+    }
+
+    @Test
+    public void getTripleCrowns(){
+        assertEquals(11, ireland.getTripleCrowns());
+    }
+
+    @Test
+    public void getWoodenSpoons(){
+        assertEquals(36, ireland.getWoodenSpoons());
     }
 
     @Test

@@ -3,7 +3,10 @@ public class Italy {
     private String coach;
     private String stadium;
     private int capacity;
+    private int championshipsEntered;
     private int championships;
+    private int grandSlams;
+    private int woodenSpoons;
     private int giuseppeGaribaldiTrophies;
 
     public Italy(String coach, String stadium, int capacity, int championships, int giuseppeGaribaldiTrophies){
