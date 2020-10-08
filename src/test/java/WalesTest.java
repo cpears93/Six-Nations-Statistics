@@ -9,7 +9,7 @@ public class WalesTest {
 
     @Before
     public void before(){
-        wales = new Wales("Wayne Pivac", "Principality Stadium", 74500,124, 39,12,21, 21, 2);
+        wales = new Wales("Wayne Pivac", "Principality Stadium", "Parc y Scarlets", 74500, 14870, 124, 39,12,21, 21, 2);
     }
 
     @Test
@@ -23,9 +23,22 @@ public class WalesTest {
     }
 
     @Test
+
+    public void getOct2020Stadium(){
+        assertEquals("Parc y Scarlets",wales.getOct2020Stadium());
+    }
+
+    @Test
     public void getCapacity(){
         assertEquals(74500,wales.getCapacity());
     }
+
+    @Test
+
+    public void getOct2020Capacity(){
+        assertEquals(14870,wales.getOct2020Capacity());
+    }
+
 
     @Test
     public void getChampionshipsEntred(){

@@ -2,7 +2,9 @@ public class Wales {
 
     private String coach;
     private String stadium;
+    private String oct2020Stadium;
     private int capacity;
+    private int oct2020Capacity;
     private int championshipsEntered;
     private int championships;
     private int grandSlams;
@@ -10,10 +12,12 @@ public class Wales {
     private int woodenSpoons;
     private int doddieWeirCups;
 
-    public Wales(String coach, String stadium, int capacity, int championshipsEntered, int championships, int grandSlams, int tripleCrowns, int woodenSpoons, int doddieWeirCups){
+    public Wales(String coach, String stadium, String oct2020Stadium, int capacity, int oct2020Capacity, int championshipsEntered, int championships, int grandSlams, int tripleCrowns, int woodenSpoons, int doddieWeirCups){
         this.coach = coach;
         this.stadium = stadium;
+        this.oct2020Stadium = oct2020Stadium;
         this.capacity = capacity;
+        this.oct2020Capacity = oct2020Capacity;
         this.championshipsEntered = championshipsEntered;
         this.championships = championships;
         this.grandSlams = grandSlams;
@@ -30,8 +34,16 @@ public class Wales {
         return this.stadium;
     }
 
+    public String getOct2020Stadium(){
+        return this.oct2020Stadium;
+    }
+
     public int getCapacity(){
         return this.capacity;
+    }
+    
+    public int getOct2020Capacity(){
+        return this.oct2020Capacity;
     }
 
     public int getChampionshipsEntered(){
