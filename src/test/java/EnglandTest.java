@@ -9,7 +9,7 @@ public class EnglandTest {
 
     @Before
     public void before(){
-        england = new England("Eddie Jones", "Twickenham", 82000, 122,38,13,25,25,71, 20);
+        england = new England("Eddie Jones", "Twickenham", 82000, 122, 38, 13, 25, 25, 71, 20);
     }
 
     @Test

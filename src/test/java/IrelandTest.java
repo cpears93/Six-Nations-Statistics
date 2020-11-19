@@ -9,7 +9,7 @@ public class IrelandTest {
 
     @Before
     public void before(){
-        ireland = new Ireland("Andy Farrell", "Aviva Stadium", 51700, 124,23, 3, 11, 36, 13,17);
+        ireland = new Ireland("Andy Farrell", "Aviva Stadium", 51700, 124, 23, 3, 11, 36, 13, 17);
     }
 
     @Test

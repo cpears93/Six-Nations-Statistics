@@ -9,7 +9,7 @@ public class FranceTest {
 
     @Before
     public void before(){
-        france = new France("Fabian Galthié", "Stade De France", 81338, 88,25, 9, 18, 1, 12);
+        france = new France("Fabian Galthié", "Stade De France", 81338, 88, 25, 9, 18, 1, 12);
     }
 
     @Test
