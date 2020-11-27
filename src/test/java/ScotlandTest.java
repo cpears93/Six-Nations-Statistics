@@ -9,7 +9,7 @@ public class ScotlandTest {
 
     @Before
     public void before(){
-        scotland = new Scotland("Gregor Townsend", "Murrayfield", 67144, 124, 24, 3, 10, 33, 40, 14, 2, 1);
+        scotland = new Scotland("Gregor Townsend", "Murrayfield Stadium", 67144, 124, 24, 3, 10, 33, 40, 14, 2, 1);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class ScotlandTest {
 
     @Test
     public void getStadiumName(){
-        assertEquals("Murrayfield", scotland.getStadium());
+        assertEquals("Murrayfield Stadium", scotland.getStadium());
     }
 
     @Test
