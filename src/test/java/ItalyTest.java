@@ -9,7 +9,7 @@ public class ItalyTest {
 
     @Before
     public void before(){
-        italy = new Italy("Franco Smith", "Stadio Olympico", 72698, 19, 0, 0, 15, 2);
+        italy = new Italy("Franco Smith", "Stadio Olympico", 72698, 19, 0, 0, 16, 2);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class ItalyTest {
 
     @Test
     public void getWoodenSpoons(){
-        assertEquals(15, italy.getWoodenSpoons());
+        assertEquals(16, italy.getWoodenSpoons());
     }
 
     @Test

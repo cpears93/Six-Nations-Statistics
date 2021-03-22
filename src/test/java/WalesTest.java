@@ -9,7 +9,7 @@ public class WalesTest {
 
     @Before
     public void before(){
-        wales = new Wales("Wayne Pivac", "Principality Stadium", "Parc y Scarlets", 74500, 14870, 124, 39, 12, 21, 21, 3);
+        wales = new Wales("Wayne Pivac", "Principality Stadium", "Parc y Scarlets", 74500, 14870, 124, 39, 12, 22, 21, 3);
     }
 
     @Test
@@ -57,7 +57,7 @@ public class WalesTest {
 
     @Test
     public void getTripleCrowns(){
-        assertEquals(21,wales.getTripleCrowns());
+        assertEquals(22,wales.getTripleCrowns());
     }
 
     @Test
